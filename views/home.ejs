@@ -5,19 +5,19 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
-  <meta charset="utf-8" />
+	<meta charset="utf-8" />
 
-  <!-- Set the viewport width to device width for mobile -->
-  <meta name="viewport" content="width=device-width" />
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width" />
 
-  <title><%= title %></title>
+	<title><%= title %></title>
 
-  <!-- Included CSS Files, use foundation.css if you do not want minified code -->
-  <link rel="stylesheet" href="stylesheets/foundation.min.css">
-  <link rel="stylesheet" href="stylesheets/app.css">
+	<!-- Included CSS Files, use foundation.css if you do not want minified code -->
+	<link rel="stylesheet" href="stylesheets/foundation.min.css">
+	<link rel="stylesheet" href="stylesheets/app.css">
 
-  <!-- Custom Modernizr for Foundation -->
-  <script src="javascripts/modernizr.foundation.js"></script>
+	<!-- Custom Modernizr for Foundation -->
+	<script src="javascripts/modernizr.foundation.js"></script>
 </head>
 
 <body>
@@ -88,12 +88,19 @@
 			</div> 
 		</div>
 	</div>
-
+	
 	<!-- Latest version of jQuery -->
 	<script src="javascripts/jquery.js"></script>
 	<!-- Included JS Files (Minified) -->
 	<script src="javascripts/foundation.min.js"></script>
 	<!-- Initialize JS Plugins -->
 	<script src="javascripts/app.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var images = ['IMG_0255.JPG', 'IMG_0284.JPG', 'IMG_0289.JPG', 'IMG_0329.JPG', 'IMG_0332.JPG', 'IMG_9637.JPG'];
+			$('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+		});
+	</script>
 </body>
 </html>
