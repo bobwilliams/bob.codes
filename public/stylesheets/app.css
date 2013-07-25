@@ -13,11 +13,16 @@
    Shared Styles
 ----------------------------------------- */
 body {
+	background-image:url('/images/IMG_0332.JPG');
+	background-size: cover;
+    background-repeat: no-repeat;
 	padding:	10px;
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
 }
 
 .panel.mylinks {height: 205px;}
+
+.panel.opaque { opacity: 0.70; }
 
 .banner {height: 261px; width: 100%;}
 
