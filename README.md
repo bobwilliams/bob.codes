@@ -1,6 +1,6 @@
 # Welcome
 
-A simple and minmal personal website.
+A simple and minimal personal website.
 
 **Quick Links:**
 
