@@ -23,11 +23,11 @@ development environment:
 **Clone the repository**:
 
     $ cd ~/<projects-directory>
-    $ git clone git@github.com:bobwilliams/bobwilliams.me.git
+    $ git clone git@github.com:bobwilliams/bob.codes.git
 
 **Install node module dependencies**:
 
-    $ cd bobwilliams.me/
+    $ cd bob.codes/
     $ npm install
 
 **Start the App server**:
