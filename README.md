@@ -6,6 +6,21 @@ A simple and minmal personal website.
 
 Thanks to [HTML5 UP](html5up.net) and [@n33co](https://twitter.com/@n33co) for creating the [Strata theme](http://html5up.net/strata) which is licensed as free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
+## Usage
+
+This is a straight up static html...remember those days?  :stuck_out_tongue_winking_eye:    
+
+So, to run this just start up your server of choice and navgigate to `index.html`
+
+For example, assuming you've forked or cloned the repo and you're on a Mac open a terminal and do the following:
+
+```sh
+$ cd <root folder>
+$ python -m SimpleHTTPServer
+```
+
+Navigate to `http://<server>/index.html`
+
 ## Strata Credits
 
 Demo Images:
