@@ -25,6 +25,6 @@ Navigate to `http://<server>/index.html`
 
 ## License
 
-[Aerial](http://html5up.net/aerial) is licensed as free for personal and commercial use under the CCA 3.0 license (http://html5up.net/license)
+[Aerial](http://html5up.net/aerial) is licensed as free for personal and commercial use under the [CCA 3.0 license](http://html5up.net/license)
 
 Copyright © 2015 [Bob Williams](https://github.com/bobwilliams), distributed under the [MIT License](LICENSE.md)
